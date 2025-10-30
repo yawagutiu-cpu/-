@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{E100FC1E-0106-FBE8-B764-97D7F42A2CDD}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64" UseCompiler="ifxCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="input">
+			<File RelativePath=".\input\input.dat">
+			</File>
+		</Filter>
+		<Filter Name="ソースファイル" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+			<File RelativePath=".\correct_structural_lattices_with_edge.f90"/>
+			<File RelativePath=".\find_minimum_inter_nodal_distance.f90">
+			</File>
+			<File RelativePath=".\get_ellipse_position.f90">
+			</File>
+			<File RelativePath=".\get_length_ellipse.f90">
+			</File>
+			<File RelativePath=".\get_line_position.f90">
+			</File>
+			<File RelativePath=".\get_shape_func.f90"/>
+			<File RelativePath=".\integration_3D_mesh.f90">
+			</File>
+			<File RelativePath=".\make_solid_by_2Dmesh.f90">
+			</File>
+			<File RelativePath=".\merge_duplicate_nodes.f90">
+			</File>
+			<File RelativePath=".\output_mesh_data.f90">
+			</File>
+			<File RelativePath=".\prepare_subbox.f90">
+			</File>
+			<File RelativePath=".\search_duplicate_make_subst_list.f90">
+			</File>
+			<File RelativePath=".\search_max_min_nodes.f90">
+			</File>
+			<File RelativePath=".\store_nodeID_to_subbox.f90">
+			</File>
+			<File RelativePath=".\update_node_ID_by_subst_nID_list.f90">
+			</File>
+			<File RelativePath=".\util_mesh.f90">
+			</File>
+			<File RelativePath=".\input.f90"/>
+			<File RelativePath=".\integration_2D_mesh.f90">
+			</File>
+			<File RelativePath=".\make_2D_edge.f90">
+			</File>
+			<File RelativePath=".\main_2D_mesh_plate_fin_tube_ellipse_only.f90">
+			</File>
+			<File RelativePath=".\make_2D_plane.f90">
+			</File>
+			<File RelativePath=".\make_structural_lattice.f90"/>
+			<File RelativePath=".\output_mesh_paraview.f90">
+			</File>
+			<File RelativePath=".\output_paraview.f90"/>
+			<File RelativePath=".\output_paraview_edge.f90">
+			</File>
+			<File RelativePath=".\parameters.f90"/>
+		</Filter>
+		<Filter Name="ヘッダーファイル" Filter="fi;fd"/>
+		<Filter Name="リソースファイル" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<File RelativePath=".\ReadMe.txt"/>
+	</Files>
+	<Globals/>
+</VisualStudioProject>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<VTKFile type="PUnstructuredGrid" version="1.0" byte_order="LittleEndian">
+<PUnstructuredGrid GhostLevel="0">
+<PPoints>
+<PDataArray type="Float32" NumberOfComponents="3" Name="Points"/>
+</PPoints>
+<PCellData>
+<PDataArray type="Int32" Name="mat_id" NumberOfComponents="1"/>
+</PCellData>
+<Piece Source="edge_00000001_00000001.vtu"/>
+<Piece Source="edge_00000001_00000002.vtu"/>
+<Piece Source="edge_00000001_00000003.vtu"/>
+<Piece Source="edge_00000001_00000004.vtu"/>
+<Piece Source="edge_00000002_00000001.vtu"/>
+<Piece Source="edge_00000002_00000002.vtu"/>
+<Piece Source="edge_00000002_00000003.vtu"/>
+<Piece Source="edge_00000002_00000004.vtu"/>
+</PUnstructuredGrid>
+</VTKFile>
